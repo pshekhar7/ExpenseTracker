@@ -24,7 +24,6 @@ const NewExpense = (props) => {
       {hideForm && (
         <button onClick={onAddNewExpenseClickHandler}>Add New Expense</button>
       )}
-      ;
       {!hideForm && (
         <ExpenseForm onSaveExpenseData={saveExpenseData} onCancel={formReset} />
       )}
